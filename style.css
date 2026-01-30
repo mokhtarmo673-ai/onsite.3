@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(1, 1, 49);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#home{
+    background-image: url("imege3/gallery1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+#home .container{
+    position: relative;
+    z-index: 1;
+}
+.btn{
+    background-color: rgb(1, 1, 49);
+}
+#offers{
+    margin: 70px 0;
+}
+.card{
+    padding: 30px;
+    text-align: center;
+}
+.card h5{
+    margin-top: 10px;
+}
+#gallery{
+    padding: 60px 40px;
+    text-align: center;
+}
+#imges{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#imges .img{
+    padding: 0 20px;
+}
